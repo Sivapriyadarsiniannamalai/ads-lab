@@ -1,0 +1,53 @@
+Generate a positive list of the number from a given list of integers.
+
+
+input:
+
+list1=[]
+n=int(input(' enter the total:'))
+for j in range(n):
+    a=int(input("enter the value:"))
+    list1.append(a)
+result=[i for i in list1 if i>=0]
+print(result)
+
+
+
+
+
+Output:
+
+
+
+enter the total:2
+enter the value:1
+enter the value:-4
+[1]
+
+
+
+Or 
+
+
+a=[6,5,4,3,-3,-4,-8,11]
+result=[i for i in a if i>=0]
+print(result)  
+
+
+o/p:
+[6, 5, 4, 3, 11]
+
+
+
+
+Or
+
+
+a=[6,5,4,3,-3,-4,-8,11]
+for i in a:
+    if i>=0:
+        print(i,end=" ")
+
+
+o/p:
+6 5 4 3 11

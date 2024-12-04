@@ -1,0 +1,18 @@
+user_dict = {}
+for i in range(3):  
+    key = input("Enter key: ")
+    value = input("Enter value: ")
+    user_dict[key] = value 
+print("User dictionary:", user_dict)
+
+
+
+output:
+
+Enter key: 1
+Enter value: fruits
+Enter key: 2
+Enter value: vegetables
+Enter key: 3
+Enter value: flowers
+User dictionary: {'1': 'fruits', '2': 'vegetables', '3': 'flowers'}

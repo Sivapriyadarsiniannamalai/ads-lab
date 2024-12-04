@@ -1,0 +1,16 @@
+II,f,From a list of integers create a list removing even number.
+
+
+i/p
+list=[1,2,3,4,5,6,7,8,9,0,11,16,17,33,35]
+for i in list:
+    a = i %2
+    if a == 0:
+        list.remove(i)
+print(list)
+
+
+
+output:
+
+[1, 3, 5, 7, 9, 11, 17, 33, 35]

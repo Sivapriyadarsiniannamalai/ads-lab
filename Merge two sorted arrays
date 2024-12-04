@@ -1,0 +1,34 @@
+dict1={}
+dict2={}
+n1=int(input("Enter the range1:"))
+n2=int(input("Enter the range2:"))
+for i in range(n1):
+    key1=int(input("Enter a key of dict1:"))
+    value1=input("Enter value of dict1:")
+    dict1[key1]=value1
+for i in range(n2):
+    key2=int(input("Enter a key of dict2:"))
+    value2=input("Enter value of dict2:")
+    dict2[key2]=value2
+print("The first Dictionary:",dict1)
+print("The second Dictionary:",dict2)
+dict1.update(dict2)
+print("The merged dictionary:",dict1)
+
+
+
+output:
+
+Enter the range1:3
+Enter the range2:1
+Enter a key of dict1:1
+Enter value of dict1:apple
+Enter a key of dict1:2
+Enter value of dict1:mango
+Enter a key of dict1:3
+Enter value of dict1:watermelon
+Enter a key of dict2:4
+Enter value of dict2:cucumber
+The first Dictionary: {1: 'apple', 2: 'mango', 3: 'watermelon'}
+The second Dictionary: {4: 'cucumber'}
+The merged dictionary: {1: 'apple', 2: 'mango', 3: 'watermelon', 4: 'cucumber'}

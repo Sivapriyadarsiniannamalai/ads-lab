@@ -1,0 +1,25 @@
+III,b, Display future leap years from current year to a final year entered by user using a functions:
+
+
+def count_leap_years(start_year, end_year):
+    count = 0
+    leap_years = []
+    for year in range(start_year, end_year + 1):
+        if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
+            count += 1
+            leap_years.append(year)
+    return count, leap_years
+start_year = int(input("Enter the start year: "))
+end_year = int(input("Enter the end year: "))
+leap_year_count, leap_years = count_leap_years(start_year, end_year)
+print(f"Total leap years between {start_year} and {end_year}: {leap_year_count}")
+print("Leap years:", leap_years)
+
+
+
+output:
+
+Enter the start year: 2024
+Enter the end year: 2030
+Total leap years between 2024 and 2030: 2
+Leap years: [2024, 2028]

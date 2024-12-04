@@ -1,0 +1,25 @@
+ A,find the sum and product of three numbers using a functions:
+
+i/p:
+
+
+def sums(a,b,c):
+    print("sum is: ", a+b+c)
+def products(a,b,c):
+    print("Product is: ", a*b*c)
+    
+a=(int(input("enter first no:")))
+b=(int(input("enter second no:")))
+c=(int(input("enter third no:")))
+
+sums(a,b,c)
+products(a,b,c)
+
+
+output:
+
+enter first no:3
+enter second no:6
+enter third no:7
+sum is:  16
+Product is:  126

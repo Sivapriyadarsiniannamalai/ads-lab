@@ -1,0 +1,13 @@
+str1=input("Enter the first string")
+str2=input("Enter the second string")
+strswap1=str1[0]+str2[1:]
+strswap2=str2[0]+str1[1:]
+result=strswap1+" "+strswap2
+print("result after swapping:",result)
+
+
+
+output:
+Enter the first stringhreloo
+Enter the second stringkitty
+result after swapping: hitty kreloo

@@ -1,0 +1,20 @@
+n=int(input("enter the number:"))
+prev1 = 0
+prev2 = 1
+print(prev1)
+print(prev2)
+print("The fibonacci series are:")
+for i in range(n):
+    curr=prev1 + prev2
+    prev2=prev1
+    prev1 = curr
+    print(curr, end=" ")
+
+
+
+output:
+enter the number:5
+0
+1
+The fibonacci series are:
+1 1 2 3 5 

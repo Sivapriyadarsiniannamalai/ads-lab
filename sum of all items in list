@@ -1,0 +1,8 @@
+my_list = [1, 2, 3, 4, 5]
+total_sum = 0
+for item in my_list:
+    total_sum += item
+print("The sum of all items in the list is:", total_sum)
+
+output:
+The sum of all items in the list is: 15

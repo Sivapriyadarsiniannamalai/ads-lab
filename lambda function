@@ -1,0 +1,14 @@
+square = lambda s : s*s
+rectangle = lambda l,b : l*b
+triangle = lambda b,h : (b*h)/2
+print('Area of square',square(15))
+print('Area of triangle',triangle(8,12))
+print('Area of rectangle',rectangle(12,16))
+
+
+ 
+o/p;
+
+Area of square 225
+Area of triangle 48.0
+Area of rectangle 192

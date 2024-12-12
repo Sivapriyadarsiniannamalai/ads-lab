@@ -15,7 +15,27 @@ for i in l:
     if digit==0:
         print(j)
 
+or
 
+import math
+l=[]
+for i in range(32, 99):
+    sq=i*i
+    l.append(sq)
+for i in l:
+    rem=1
+    j=i
+    while(i>0):
+        digit=i%10
+#         i=i//10
+        rem=digit%2
+        if rem!=0:
+            break;
+        else:
+            i=i//10
+    if rem==0:
+        print(j)
+    
 
 
 or  

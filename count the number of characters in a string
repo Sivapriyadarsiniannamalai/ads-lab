@@ -1,0 +1,16 @@
+word=str(input("Enter the string: "))
+freq={}
+
+for letter in word:
+    if letter in freq:
+        freq[letter]+=1
+    else:
+        freq[letter]=1
+print("The frequency of characters in",word,":",str(freq))
+
+
+
+
+o/p:
+Enter the string: oceanorange
+The frequency of characters in oceanorange : {'o': 2, 'c': 1, 'e': 2, 'a': 2, 'n': 2, 'r': 1, 'g': 1}

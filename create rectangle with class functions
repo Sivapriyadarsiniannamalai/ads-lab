@@ -1,0 +1,37 @@
+class rectangle:
+    def __init__(s):
+        s.l=int(input("Enter l:"))
+        s.b=int(input("Enter b:"))
+    def rect(s):
+        area=s.a=s.l*s.b
+        return(area)
+    def perirect(s):
+        perimeter=2*(s.l+s.b)
+        return(perimeter)
+z1=rectangle()
+z2=rectangle()
+
+print("Area of rectangle:",z1.rect())
+print("Perimeter of rectangle:",z1.perirect())
+print("Area of rectangle:",z2.rect())
+print("Perimeter of rectangle:",z2.perirect())
+
+if z1.rect() > z2.rect():
+    print("rectangle 1 is greater")
+else:
+    print("rectangle 2 is greater")
+
+
+
+
+
+output:
+Enter l:3
+Enter b:4
+Enter l:5
+Enter b:6
+Area of rectangle: 12
+Perimeter of rectangle: 14
+Area of rectangle: 30
+Perimeter of rectangle: 22
+rectangle 2 is greater
